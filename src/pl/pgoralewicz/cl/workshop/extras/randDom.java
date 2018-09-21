@@ -35,7 +35,7 @@ public class randDom {
         }
 
 //        podzial kolekcji na tokeny
-        StringTokenizer st = new StringTokenizer(str2, "[], ");
+        StringTokenizer st = new StringTokenizer(str2);
 
         return st;
     }
