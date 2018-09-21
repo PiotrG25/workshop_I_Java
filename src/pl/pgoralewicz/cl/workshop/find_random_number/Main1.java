@@ -8,7 +8,7 @@ public class Main1 {
         Scanner scanner = new Scanner(System.in);
         int r = (new Random()).nextInt(100) + 1;
 
-        System.out.println("Zgadnij liczbę");
+        System.out.println("Zgadnij liczbę z zakresu 1-100");
 
         int i = 0;
 
