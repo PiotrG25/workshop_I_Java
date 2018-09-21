@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07921c0d-4a16-444e-9cc5-e8d33a911f8b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workshop_I_Java/pl/pgoralewicz/cl/workshop/dice/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workshop_I_Java/pl/pgoralewicz/cl/workshop/dice/Main4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workshop_I_Java/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workshop_I_Java/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +21,8 @@
       <file leaf-file-name="Main3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="266">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -26,8 +30,8 @@
       <file leaf-file-name="Main4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -58,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/Lotto/Main2.java" />
         <option value="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number/Main1.java" />
+        <option value="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java" />
         <option value="$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.java" />
       </list>
     </option>
@@ -266,11 +271,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -289,13 +294,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_words/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -323,10 +321,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/dice/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pgoralewicz/cl/workshop/find_random_number2/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="266">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>

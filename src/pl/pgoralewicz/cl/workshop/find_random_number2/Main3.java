@@ -6,7 +6,7 @@ public class Main3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int assumed = 500, tries = 1;
-        int low = 0, high = 1001;
+        int low = 1, high = 1001;
         String text;
 
         System.out.println("Pomysl o liczbie z zakresu 1-1000");
@@ -17,19 +17,19 @@ public class Main3 {
             text = scanner.next();
 
             if(text.equals("wiecej")){
-                if(assumed + 1== high){
+                if(assumed == high){
                     System.out.println("Oszukujesz! :(");
                     break;
                 }
-                low = assumed;
+                low = assumed + 1;
                 assumed = low + (high - low) / 2;
 
             }else if(text.equals("mniej")){
-                if(assumed == low + 1){
+                if(assumed == low){
                     System.out.println("Oszukujesz! :(");
                     break;
                 }
-                high = assumed;
+                high = assumed - 1;
                 assumed = low + (high - low) / 2;
 
             }else if(!text.equals("trafiles")){
