@@ -1,6 +1,10 @@
 package pl.pgoralewicz.cl.workshop.extras;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.StringTokenizer;
 
 public class randDom {
     public static void main(String[] args) {
