@@ -7,7 +7,7 @@ public class Main4 {
     public static void main(String[] args) {
         String str;
         Scanner scanner = new Scanner(System.in);
-        int i = 0;
+        int i;
 
         do{
             str = scanner.next();
