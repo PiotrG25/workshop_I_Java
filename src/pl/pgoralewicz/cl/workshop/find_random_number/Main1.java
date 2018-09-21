@@ -10,14 +10,16 @@ public class Main1 {
 
         System.out.println("Zgadnij liczbę");
 
-        int i;
+        int i = 0;
 
         do{
-            while(!scanner.hasNextInt()){
+            if(scanner.hasNextInt()){
+                i = scanner.nextInt();
+            }else{
                 scanner.next();
                 System.out.println("To nie jest liczba");
+                continue;
             }
-            i = scanner.nextInt();
             if(i < r){
                 System.out.println("Za mało!");
             }else if(i > r){
