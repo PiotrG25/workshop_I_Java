@@ -1,4 +1,28 @@
 package pl.pgoralewicz.cl.workshop.find_words;
 
+// jsoup HTML parser library @ https://jsoup.org/
+//compile 'org.jsoup:jsoup:1.11.3'
+
+import org.jsoup.Connection;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+
 public class Main5 {
+    public static void main(String[] args) {
+        Connection connect = Jsoup.connect("https://www.onet.pl/");
+        try{
+            Document document = connect.get();
+            Elements links = document.select("span.title");
+            for(Element elem : links){
+                System.out.println(elem.text());
+            }
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
 }
